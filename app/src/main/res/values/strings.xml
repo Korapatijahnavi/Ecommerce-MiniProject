@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">ECommerceMiniProject</string>
+    <string name="intro_1">Get your groceries
+        delivered to your home</string>
+    <string name="intro_2">The best delivery app in town for delivering your
+        daily fresh groceries</string>
+    <string name="login_1">Enter your mobile number</string>
+    <string name="login_2">By Clicking on "Continue" you are agreeing
+        to our terms of use</string>
+
+    <string name="greeting_morning">Good Morning </string>
+    <string name="greeting_afternoon">Good Afternoon </string>
+    <string name="greeting_evening">Good Evening </string>
+    <string name="user_mobile_format">+91 %1$s</string>
+    <string name="deliver_to">Deliver to Home</string>
+    <string name="search_hint_home">What are you looking for?</string>
+    <string name="search_hint_products">Search products…</string>
+    <string name="section_offers">Special offers 🎁</string>
+    <string name="section_categories">Categories 😋</string>
+    <string name="section_deals">Best deals 🔥</string>
+    <string name="view_all"><u>View All</u></string>
+    <string name="banner_tag">UP TO %1$d%% OFF</string>
+    <string name="banner_cta">Shop now →</string>
+    <string name="logout_title">Log out?</string>
+    <string name="logout_message">You will need to log in again with OTP next time.</string>
+    <string name="logout_confirm">Log out</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="discount_off">%1$d%% OFF</string>
+    <string name="qty_pcs">%1$d pcs</string>
+    <string name="category_all">All</string>
+    <string name="offer_strip">🎉 Free delivery on orders above %1$s</string>
+    <string name="empty_products_title">No products found</string>
+    <string name="empty_products_message">There are no products available right now.</string>
+    <string name="empty_filter_message">Try another category or search term.</string>
+    <string name="error_title">Oops!</string>
+    <string name="btn_retry">Retry</string>
+    <string name="added_to_cart">Added to cart</string>
+    <string name="stock_limit">Only %1$d in stock</string>
+
+    <string name="detail_total_price">Total price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_brand_category">%1$s  •  %2$s</string>
+    <string name="tile_rating_label">Rating</string>
+    <string name="tile_stock_label">In stock</string>
+    <string name="tile_warranty_label">Warranty</string>
+    <string name="tile_shipping_label">Shipping</string>
+    <string name="stock_value">%1$d pcs</string>
+    <string name="not_available">N/A</string>
+    <string name="return_policy_format">Return policy: %1$s</string>
+    <string name="invalid_product">Product not found</string>
+
+    <string name="tab_cart_items">Cart items</string>
+    <string name="tab_delivery">Delivery</string>
+    <string name="total_bill">Total bill amount</string>
+    <string name="checkout">Checkout</string>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_message">Add some products and they will show up here.</string>
+    <string name="start_shopping">Start shopping</string>
+    <string name="cart_empty_toast">Your cart is empty. Add products first.</string>
+    <string name="subtotal_format">Subtotal: %1$s</string>
+    <string name="price_per_pc">%1$s / pc</string>
+    <string name="free_delivery_unlocked">🎉 Yay! You have unlocked FREE delivery</string>
+    <string name="free_delivery_remaining">Add items worth %1$s more for FREE delivery</string>
+
+    <string name="label_name">Customer Name</string>
+    <string name="label_mobile">Customer Mobile</string>
+    <string name="label_address">Customer Address</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_pincode">Pincode</string>
+    <string name="label_address_type">Address Type</string>
+    <string name="label_payment">Payment Method</string>
+    <string name="label_upi">UPI ID</string>
+    <string name="hint_name">Enter your full name</string>
+    <string name="hint_mobile">10-digit mobile number</string>
+    <string name="hint_address">House no, street, area</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_pincode">6-digit pincode</string>
+    <string name="hint_upi">yourname@upi</string>
+    <string name="address_home">Home</string>
+    <string name="address_office">Office</string>
+    <string name="pay_cash">Cash</string>
+    <string name="pay_upi">UPI</string>
+    <string name="payment_note">Demo checkout — no real payment is processed.</string>
+    <string name="error_name_empty">Please enter the customer name</string>
+    <string name="error_name_invalid">Name can contain letters and spaces only</string>
+    <string name="error_mobile_empty">Please enter the customer mobile number</string>
+    <string name="error_mobile_invalid">Number should contain digits only</string>
+    <string name="error_address_empty">Please enter the delivery address</string>
+    <string name="error_address_short">Address looks too short</string>
+    <string name="error_city_empty">Please enter the city</string>
+    <string name="error_state_empty">Please enter the state</string>
+    <string name="error_letters_only">Use letters and spaces only</string>
+    <string name="error_pincode_empty">Please enter the pincode</string>
+    <string name="error_pincode_invalid">Pincode must be 6 digits and cannot start with 0</string>
+    <string name="error_upi_empty">Please enter your UPI ID</string>
+    <string name="error_upi_invalid">Enter a valid UPI ID, e.g. name@upi</string>
+    <string name="error_form">Please fix the highlighted fields</string>
+    <string name="next">Next</string>
+    <string name="total_without_tax">Total (without tax)</string>
+
+    <string name="payment_success_title">Payment Successful</string>
+    <string name="payment_success_message">Thank you for purchasing with us.\nWe value you!</string>
+    <string name="payment_thanks_name">Thank you for purchasing with us, %1$s!\nWe value you!</string>
+    <string name="order_summary">Order %1$s  •  %2$s paid via %3$s</string>
+    <string name="redirect_home">Taking you back home…</string>
+</resources>

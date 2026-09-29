@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tab_cart_items"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_tab_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:gravity="center"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:text="@string/tab_cart_items"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tab_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_tab_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:gravity="center"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:text="@string/tab_delivery"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/backarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/backarrow"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"/>
+
+
+    <ImageView
+        android:id="@+id/iconmain"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/background_main"
+        android:src="@drawable/splashicon"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:circularflow_defaultRadius="50dp"
+        android:clickable="true"/>
+
+
+    <TextView
+        android:id="@+id/tvloginmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otp Verfication"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconmain"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito_sans_black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvloginverification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_normal"
+        android:text="We will send verification code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvloginmobile"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutcontainer"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvloginverification"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/edt_1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:visibility="visible"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:hint="-"
+            android:fontFamily="@font/nunito_sans_black"/>
+
+        <EditText
+            android:id="@+id/edt_2"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:hint="-"
+            android:fontFamily="@font/nunito_sans_black"/>
+
+
+        <EditText
+            android:id="@+id/edt_3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:hint="-"
+            android:fontFamily="@font/nunito_sans_black"/>
+
+        <EditText
+            android:id="@+id/edt_4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:hint="-"
+            android:fontFamily="@font/nunito_sans_black"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayoutcontainer"
+        android:layout_marginTop="20dp"
+        android:textColor="#f5f5f5"
+        android:background="@drawable/rounded_button_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvterms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:textColor="#494444"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="corner_small">8dp</dimen>
+    <dimen name="corner_medium">12dp</dimen>
+    <dimen name="corner_large">16dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="stepper_height">32dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+</resources>
