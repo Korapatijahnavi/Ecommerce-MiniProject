@@ -260,7 +260,7 @@ An internet connection is required to retrieve product data from the API.
 
 ### APK
 
-[Download APK](#)
+[Download APK](sha256:dab9f2a67850ba2b7b47d661b5d2821160bfe73606133dde810717d193b074df)
 
 ### Screen Recording
 
