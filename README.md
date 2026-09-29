@@ -260,8 +260,9 @@ An internet connection is required to retrieve product data from the API.
 
 ### APK
 
-[Download APK](sha256:dab9f2a67850ba2b7b47d661b5d2821160bfe73606133dde810717d193b074df)
+## 📦 APK
 
+[⬇️ Download APK](https://github.com/Korapatijahnavi/Ecommerce-MiniProject/releases/tag/v1.0.0)
 ### Screen Recording
 
 [Watch Screen Recording](#)
