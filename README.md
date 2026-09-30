@@ -265,7 +265,7 @@ An internet connection is required to retrieve product data from the API.
 [⬇️ Download APK](https://github.com/Korapatijahnavi/Ecommerce-MiniProject/releases/tag/v1.0.0)
 ### Screen Recording
 
-[Watch Screen Recording](#)
+[Watch Screen Recording](https://drive.google.com/file/d/1C7Pm1pSIaVHKpdzM0wwk1_LSV-AGN4Es/view)
 
 
 ---
